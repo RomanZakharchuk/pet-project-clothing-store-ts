@@ -15,6 +15,9 @@ const Navigation: FC = () => {
                     <Link to={'/shop'} className={css.NavLink}>
                         SHOP
                     </Link>
+                    <Link to={'/sign-in'} className={css.NavLink}>
+                        SIGN IN
+                    </Link>
                 </div>
             </div>
 
