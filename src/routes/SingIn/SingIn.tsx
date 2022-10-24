@@ -5,7 +5,7 @@ import { signInWithGooglePopup, createUserDocumentFromAuth } from '../../utils/'
 const SingIn: FC = () => {
     const logGoogleUser = async () => {
         const { user } = await signInWithGooglePopup();
-        createUserDocumentFromAuth(user);
+        const userDocRef =  createUserDocumentFromAuth(user);
     };
 
     return (
